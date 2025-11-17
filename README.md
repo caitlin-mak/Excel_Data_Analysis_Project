@@ -56,7 +56,7 @@ Excel_Data_Analysis_Project/
 │   ├── USA_UFO_Dashboard.xlsx
 │   └── README.md
 │
-└── Summary_README.md (this file)
+└── README.md (this file)
 ```
 
 ## Summary of Analyses
