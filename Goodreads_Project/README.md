@@ -79,7 +79,7 @@ As the genres were relative to each book, in Power Pivot  I created a relationsh
 
 #### Results: 
 
-![Authors Rating Count](Visualisations\Top_Ratings_Count.png)
+![Authors Rating Count](Visualisations/Top_Ratings_Count.png)
 
 #### Insights:
 - __J.K. Rowling__ has the greatest number of ratings by a wide margin, along with a large proportion of 5-star ratings, suggesting positive reader reception.
@@ -97,7 +97,7 @@ As the genres were relative to each book, in Power Pivot  I created a relationsh
 
 #### Results: 
 
-![5-Star Rating Proportion](Visualisations\proportion_ratings_correlation.png)
+![5-Star Rating Proportion](Visualisations/proportion_ratings_correlation.png)
 
 #### Insights:
 
@@ -115,7 +115,7 @@ As the genres were relative to each book, in Power Pivot  I created a relationsh
 
 #### Results: 
 
-![Average Rating Distribution](Visualisations\rating_distribution.png)
+![Average Rating Distribution](Visualisations/rating_distribution.png)
 
 #### Insights:
 
@@ -131,7 +131,7 @@ As the genres were relative to each book, in Power Pivot  I created a relationsh
 
 #### Results: 
 
-![Genre Popularity](Visualisations\Genre_Popularity.png)
+![Genre Popularity](Visualisations/Genre_Popularity.png)
 
 #### Insights:
 
@@ -151,7 +151,7 @@ As the genres were relative to each book, in Power Pivot  I created a relationsh
 
 #### Results: 
 
-![Genre Book Length](Visualisations\Genre_Book_Length.png)
+![Genre Book Length](Visualisations/Genre_Book_Length.png)
 
 #### Insights:
 

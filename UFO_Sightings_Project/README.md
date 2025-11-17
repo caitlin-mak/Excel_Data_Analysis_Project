@@ -1,6 +1,6 @@
 # UFO Sightings Interactive Dashboard
 
-![UFO Dashboard](Visualisations\UFO_Dashboard_GIF.gif)
+![UFO Dashboard](Visualisations/UFO_Dashboard_GIF.gif)
 
 ## Introduction
 
@@ -32,16 +32,16 @@ It includes information on sightings such as the:
 
 This dashboard is interactive as follows: 
 - When __Full__ is selected, data from across the USA is displayed:  
-![Full/Highlight Dropdown](Visualisations\Vis_Selection.png)
+![Full/Highlight Dropdown](Visualisations/Vis_Selection.png)
 
 - When __Highlight__ is selected, the user is able to then select a specific state to see the same statistics specific to that region:  
-![Full/Highlight Dropdown](Visualisations\State_Selection.png)
+![Full/Highlight Dropdown](Visualisations/State_Selection.png)
 
 ## Charts 
 
 ### Full - Choropleth Map of UFO Sightings
 
-![Choropleth Map](Visualisations\All_States_Sightings.png)
+![Choropleth Map](Visualisations/All_States_Sightings.png)
 
 __Analysis:__
 - Utilised Excel's map chart feature to plot the number of sighting recorded in each state.
@@ -54,7 +54,7 @@ __Insights__:
 
 ### Highlight - Map of UFO Sightings
 
-![Arizona Sightings Map](Visualisations\Arizona_Sightings.png)
+![Arizona Sightings Map](Visualisations/Arizona_Sightings.png)
 
 __Insights__:
 - Only the selected state is highlighted.
@@ -68,14 +68,14 @@ This map updates dynamically based on whether __Full__ or __Highlight__ mode is 
 - The ```state_count``` column uses the following formula:  
 ```=IF(type="Full", $D2, IF(state=$B2,$D2,NA()))```  
 - If `Full` is selected, all states retain their sighting counts. 
-- When `Highlight` is selected, only the chosen state keeps its value; all others return `N\A`, ensuring only one state appears on the map.
+- When `Highlight` is selected, only the chosen state keeps its value; all others return `N/A`, ensuring only one state appears on the map.
 
 The image below shows the table with 'Highlight' and 'Arizona' selected:  
-![Arizona Map Table](Visualisations\Arizona_Table.png)
+![Arizona Map Table](Visualisations/Arizona_Table.png)
 
 ### Reports Over Time 
 
-![Reports Over Time](Visualisations\All_States_Time.png)
+![Reports Over Time](Visualisations/All_States_Time.png)
 
 __Analysis__:
 
@@ -101,11 +101,11 @@ The steps used to create the table were:
     - If `Full` is selected, the full dataset counts are shown.
     - If `Highlight` is selected, only the selected state's yearly counts are displayed.
     
-![Reports Over Time](Visualisations\Time_Table.png)
+![Reports Over Time](Visualisations/Time_Table.png)
 
 ### Type of Sighting
 
-![Shape Count for All States](Visualisations\All_States_Shape.png)
+![Shape Count for All States](Visualisations/All_States_Shape.png)
 
 __Analysis__:
 - A bar chart was used to display the frequency of each reported UFO shape
@@ -133,15 +133,15 @@ This formula populates `dashboard_count` with either the full dataset count or t
 
 This produces a sorted table pairing each shape with its frequency.
 
-![Shape Table](Visualisations\Shape_Table.png)
+![Shape Table](Visualisations/Shape_Table.png)
 
 ## Metric Cards
 
 __Full__:  
-![Metric Cards](Visualisations\All_States_Box.png)
+![Metric Cards](Visualisations/All_States_Box.png)
 
 __Highlight (Arizona)__:  
-![Arizona Metric Cards](Visualisations\Arizona_Box.png)
+![Arizona Metric Cards](Visualisations/Arizona_Box.png)
 
 Metric cards were added to the dashboard to provide clear insights at a glance. They update dynamically depending on the selected view: 
 - When `Full` is selected, the cards summarise information across all states.
