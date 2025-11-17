@@ -61,11 +61,11 @@ Excel_Data_Analysis_Project/
 
 ## Summary of Analyses
 
-[__Goodreads Data Analysis__](Goodreads_Project\Goodreads_Data_Analysis.xlsx)
+[__Goodreads Data Analysis__](Goodreads_Project/Goodreads_Data_Analysis.xlsx)
 
 - Explored author performance, 5-star proportions, genre popularity and book length variation
 
-[__UFO Sightings Dashboard__](UFO_Sightings_Project\USA_UFO_Dashboard.xlsx)
+[__UFO Sightings Dashboard__](UFO_Sightings_Project/USA_UFO_Dashboard.xlsx)
 - Visualised regional patterns, yearly trends, sightings shapes and sighting durations
 
 ## Reflection
