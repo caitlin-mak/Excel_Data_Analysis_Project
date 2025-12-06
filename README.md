@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This project brings together two data analysis tasks designed to develop and demonstrate my analytical skills in Excel. While I followed Luke Barousse's [Excel Data Analytics Course](https://www.lukebarousse.com/excel), I chose to work with different datasets so challenge myself and ensure I could apply these skills independently.
+This project brings together two data analysis tasks designed to develop and demonstrate my analytical skills in Excel. While I followed Luke Barousse's [Excel Data Analytics Course](https://www.lukebarousse.com/excel), I chose to work with different datasets to challenge myself and ensure I could apply these skills independently.
 
 ## Datasets Used
 
